@@ -1,5 +1,5 @@
 import { Navbar } from './components';
-import { Header, AboutUs, SpecialMenu } from './container';
+import { Header, AboutUs, SpecialMenu, Chef } from './container';
 
 import './App.css';
 
@@ -9,6 +9,7 @@ const App = () => (
     <Header />
     <AboutUs />
     <SpecialMenu />
+    <Chef />
   </div>
 );
 
