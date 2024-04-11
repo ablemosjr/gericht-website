@@ -1,6 +1,5 @@
-import Navbar from './components/Navbar/Navbar';
-import Header from './container/Header/Header';
-import AboutUs from './container/AboutUs/AboutUs';
+import { Navbar } from './components';
+import { Header, AboutUs, SpecialMenu } from './container';
 
 import './App.css';
 
@@ -9,6 +8,7 @@ const App = () => (
     <Navbar />
     <Header />
     <AboutUs />
+    <SpecialMenu />
   </div>
 );
 
