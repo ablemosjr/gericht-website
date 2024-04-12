@@ -1,5 +1,5 @@
 import { Navbar } from './components';
-import { Header, AboutUs, SpecialMenu, Chef, Intro, Laurels, Gallery } from './container';
+import { Header, AboutUs, SpecialMenu, Chef, Intro, Laurels, Gallery, FindUs } from './container';
 
 import './App.css';
 
@@ -13,6 +13,7 @@ const App = () => (
     <Intro />
     <Laurels />
     <Gallery />
+    <FindUs />
   </div>
 );
 
